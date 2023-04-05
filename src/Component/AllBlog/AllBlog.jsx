@@ -47,7 +47,7 @@ const AllBlog = () => {
         ))}
       </div>
       <div className="col-md-4">
-        <p className="card p-2 fs-3">Spent time on read {Time} min</p>
+        <p className="card p-2 fs-3">Spent time on read : {Time} min</p>
         <p className="card p-2 fs-3">Bookmarked Blogs :{name.length}</p>
         {name.map((bookmark) => (
           <Sidebar bookmark={bookmark}></Sidebar>
